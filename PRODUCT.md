@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-React / Next.js (user's choice, replacing the old plain HTML/CSS/JS site). Deploy target: Vercel, as before.
+React / Next.js (user's choice, replacing the old plain HTML/CSS/JS site). Deploy target: Vercel, connected to GitHub (every push to main deploys). Live at https://joe-cole-portfolio.vercel.app, repo github.com/zeus-tech-24/joe-cole-portfolio.
 
 ## Users
 
