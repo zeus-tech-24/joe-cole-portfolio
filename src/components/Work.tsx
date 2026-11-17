@@ -79,7 +79,7 @@ export default function Work() {
             <h2 id="work-title" className="h2">
               Selected work
             </h2>
-            <p>Client sites, practice builds and the first version of this portfolio.</p>
+            <p>Client sites, practice builds and this portfolio itself.</p>
           </div>
           <a className="text-link" href={site.links.github} target="_blank" rel="noreferrer">
             More on GitHub

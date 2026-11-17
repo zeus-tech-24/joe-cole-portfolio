@@ -86,19 +86,20 @@ export const projects: Project[] = [
     code: "https://github.com/zeus-tech-24/PROJECT-BASED-LEARNING-PROJECT-100-PROJECTS",
   },
   {
-    title: "Portfolio, first edition",
+    title: "Personal portfolio",
     kind: "Personal site",
     summary:
-      "The first version of this site, hand-coded in HTML, CSS and JavaScript with a responsive layout and a mobile menu.",
-    stack: ["HTML", "CSS", "JavaScript"],
+      "This site: built in Next.js and TypeScript, with a pinned photo hero, a draggable intro card, scroll-driven motion and light and dark themes.",
+    stack: ["Next.js", "TypeScript", "CSS"],
     image: {
-      src: "/images/work-portfolio-v1-desktop.png",
-      alt: "The first edition of Joe's portfolio: an orange gradient page with a round headshot",
-      host: "my-personal-portfolio-html-css-js.vercel.app",
+      src: "/images/work-portfolio.png",
+      alt: "Joe's portfolio home page: a full-screen portrait with JOE COLE across the bottom and an intro card",
+      host: "joe-cole-portfolio.vercel.app",
       width: 1920,
       height: 1200,
     },
-    live: "https://my-personal-portfolio-html-css-js.vercel.app/",
+    live: "https://joe-cole-portfolio.vercel.app/",
+    code: "https://github.com/zeus-tech-24/joe-cole-portfolio",
   },
 ];
 

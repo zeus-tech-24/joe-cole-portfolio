@@ -57,7 +57,7 @@ From Joe's current CV (supplied 2026-11-17, shipped as `public/cv/Joe-Cole-CV.pd
 - Projects (three):
   1. **The Urban Artistry**: fully responsive WordPress website for a client (theurbanartistry.com; the domain was not reachable when checked on 2026-11-17).
   2. **100 Projects Challenge**: project-based learning repository in HTML, CSS and JavaScript, 53 of 100 builds done as of 2026-11-17 (github.com/zeus-tech-24/PROJECT-BASED-LEARNING-PROJECT-100-PROJECTS). The old site's "100+" overstated it.
-  3. **Personal portfolio v1**: the old HTML/CSS/JS site (my-personal-portfolio-html-css-js.vercel.app).
+  3. **Personal portfolio**: this site (joe-cole-portfolio.vercel.app, repo github.com/zeus-tech-24/joe-cole-portfolio); it replaced the old HTML/CSS/JS site (my-personal-portfolio-html-css-js.vercel.app).
 - Photos: a studio headshot (red and white kit, grey ground) and a black-and-white candid.
 - Absent, must not be invented: testimonials, client logos, metrics, employers, years-of-experience beyond what the CV states, additional projects.
 
