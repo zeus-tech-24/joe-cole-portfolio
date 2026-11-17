@@ -1,0 +1,1573 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T11:50:27.141Z",
+  "title": "Design System: Joe Cole",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#ffffff",
+        "theme": "light",
+        "cssVar": "--bg",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "bg-subtle": {
+        "role": "neutral",
+        "displayName": "Subtle Grey",
+        "canonical": "#f8f9fb",
+        "theme": "light",
+        "cssVar": "--bg-subtle",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9ca",
+          "#eeeeef"
+        ]
+      },
+      "bg-muted": {
+        "role": "neutral",
+        "displayName": "Muted Grey",
+        "canonical": "#f1f3f6",
+        "theme": "light",
+        "cssVar": "--bg-muted",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242526",
+          "#414244",
+          "#606164",
+          "#818285",
+          "#a3a5a8",
+          "#c8c9cb",
+          "#eeeeef"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#111827",
+        "theme": "light",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "#090b10",
+          "#20252f",
+          "#3a4252",
+          "#586174",
+          "#798296",
+          "#9ca5b8",
+          "#c3c9d7",
+          "#ebeff6"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#374151",
+        "theme": "light",
+        "cssVar": "--ink-2",
+        "tonalRamp": [
+          "#090b10",
+          "#20252f",
+          "#394251",
+          "#576273",
+          "#788395",
+          "#9ba6b7",
+          "#c2cad6",
+          "#eaeff6"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "#5f6673",
+        "theme": "light",
+        "cssVar": "--ink-3",
+        "tonalRamp": [
+          "#090b0f",
+          "#21252c",
+          "#3c424d",
+          "#5b616e",
+          "#7b8390",
+          "#9ea5b2",
+          "#c4c9d3",
+          "#eceff4"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e5e7eb",
+        "theme": "light",
+        "cssVar": "--line",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242527",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a3a5a8",
+          "#c8c9cb",
+          "#eeeef0"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "#d3d7de",
+        "theme": "light",
+        "cssVar": "--line-strong",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232528",
+          "#3f4247",
+          "#5e6167",
+          "#7f8289",
+          "#a2a5ab",
+          "#c7c9ce",
+          "#edeef1"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "canonical": "#2563eb",
+        "theme": "light",
+        "cssVar": "--accent",
+        "tonalRamp": [
+          "#00062a",
+          "#001966",
+          "#002ea8",
+          "#1451d8",
+          "#3777ff",
+          "#609eff",
+          "#99c8ff",
+          "#d4efff"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Pressed Blue",
+        "canonical": "#1d4ed8",
+        "theme": "light",
+        "cssVar": "--accent-hover",
+        "tonalRamp": [
+          "#01062a",
+          "#031866",
+          "#072daa",
+          "#1e50da",
+          "#3d75ff",
+          "#649dff",
+          "#9cc7ff",
+          "#d5efff"
+        ]
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "Link Blue",
+        "canonical": "#2563eb",
+        "theme": "light",
+        "cssVar": "--accent-text",
+        "tonalRamp": [
+          "#00062a",
+          "#001966",
+          "#002ea8",
+          "#1451d8",
+          "#3777ff",
+          "#609eff",
+          "#99c8ff",
+          "#d4efff"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Blue Wash",
+        "canonical": "#eef3ff",
+        "theme": "light",
+        "cssVar": "--accent-soft",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#23252a",
+          "#3e424b",
+          "#5d616b",
+          "#7e828d",
+          "#a1a5af",
+          "#c6c9d0",
+          "#edeef3"
+        ]
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "On Accent White",
+        "canonical": "#ffffff",
+        "theme": "light",
+        "cssVar": "--on-accent",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ok": {
+        "role": "tertiary",
+        "displayName": "Available Green",
+        "canonical": "#16a34a",
+        "theme": "light",
+        "cssVar": "--ok",
+        "tonalRamp": [
+          "#001100",
+          "#003200",
+          "#005600",
+          "#007920",
+          "#029d44",
+          "#50bf6c",
+          "#96dda3",
+          "#d4fad9"
+        ]
+      },
+      "selection": {
+        "role": "primary",
+        "displayName": "Selection",
+        "canonical": "rgb(37 99 235 / 0.18)",
+        "theme": "light",
+        "cssVar": "--selection",
+        "tonalRamp": [
+          "#00062a",
+          "#001966",
+          "#002ea8",
+          "#1451d8",
+          "#3777ff",
+          "#609eff",
+          "#99c8ff",
+          "#d4efff"
+        ]
+      },
+      "nav-bg": {
+        "role": "neutral",
+        "displayName": "Nav Glass",
+        "canonical": "rgb(255 255 255 / 0.82)",
+        "theme": "light",
+        "cssVar": "--nav-bg",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "dark-bg": {
+        "role": "neutral",
+        "displayName": "Night (dark theme)",
+        "canonical": "#0b0d12",
+        "theme": "dark",
+        "cssVar": "--bg",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#404248",
+          "#5e6168",
+          "#7f8289",
+          "#a2a5ac",
+          "#c7c9ce",
+          "#edeef1"
+        ]
+      },
+      "dark-bg-subtle": {
+        "role": "neutral",
+        "displayName": "Subtle Grey (dark theme)",
+        "canonical": "#10131a",
+        "theme": "dark",
+        "cssVar": "--bg-subtle",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#23252a",
+          "#3f424a",
+          "#5d616a",
+          "#7e828c",
+          "#a1a5ae",
+          "#c6c9d0",
+          "#edeef2"
+        ]
+      },
+      "dark-bg-muted": {
+        "role": "neutral",
+        "displayName": "Muted Grey (dark theme)",
+        "canonical": "#171b24",
+        "theme": "dark",
+        "cssVar": "--bg-muted",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#22252b",
+          "#3e424b",
+          "#5c616c",
+          "#7d828e",
+          "#a0a5b0",
+          "#c5c9d1",
+          "#eceef3"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Ink (dark theme)",
+        "canonical": "#f3f4f6",
+        "theme": "dark",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9ca",
+          "#eeeeef"
+        ]
+      },
+      "dark-ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2 (dark theme)",
+        "canonical": "#cdd2da",
+        "theme": "dark",
+        "cssVar": "--ink-2",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#3e4248",
+          "#5d6168",
+          "#7e838a",
+          "#a1a5ac",
+          "#c6c9ce",
+          "#edeef1"
+        ]
+      },
+      "dark-ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3 (dark theme)",
+        "canonical": "#9aa1ad",
+        "theme": "dark",
+        "cssVar": "--ink-3",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#22252b",
+          "#3d424c",
+          "#5b626c",
+          "#7c838e",
+          "#9fa5b0",
+          "#c5c9d1",
+          "#eceff3"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Hairline (dark theme)",
+        "canonical": "#222734",
+        "theme": "dark",
+        "cssVar": "--line",
+        "tonalRamp": [
+          "#0a0b0f",
+          "#22252d",
+          "#3d424f",
+          "#5b6170",
+          "#7c8292",
+          "#9fa5b4",
+          "#c5c9d4",
+          "#eceef5"
+        ]
+      },
+      "dark-line-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong (dark theme)",
+        "canonical": "#323a4b",
+        "theme": "dark",
+        "cssVar": "--line-strong",
+        "tonalRamp": [
+          "#090b10",
+          "#20252f",
+          "#3a4252",
+          "#586174",
+          "#798296",
+          "#9ca5b8",
+          "#c3c9d7",
+          "#ebeef6"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Action Blue (dark theme)",
+        "canonical": "#2f63ea",
+        "theme": "dark",
+        "cssVar": "--accent",
+        "tonalRamp": [
+          "#01062a",
+          "#031965",
+          "#092ea7",
+          "#2051d7",
+          "#3f76ff",
+          "#669eff",
+          "#9dc7ff",
+          "#d6efff"
+        ]
+      },
+      "dark-accent-hover": {
+        "role": "primary",
+        "displayName": "Pressed Blue (dark theme)",
+        "canonical": "#4a78f0",
+        "theme": "dark",
+        "cssVar": "--accent-hover",
+        "tonalRamp": [
+          "#020726",
+          "#081c5e",
+          "#14339c",
+          "#2c55ca",
+          "#4b79f1",
+          "#709fff",
+          "#a4c8ff",
+          "#d9efff"
+        ]
+      },
+      "dark-accent-text": {
+        "role": "primary",
+        "displayName": "Link Blue (dark theme)",
+        "canonical": "#7ea4ff",
+        "theme": "dark",
+        "cssVar": "--accent-text",
+        "tonalRamp": [
+          "#03091f",
+          "#10214f",
+          "#213b85",
+          "#3b5baf",
+          "#5a7ed5",
+          "#7fa2f6",
+          "#aec8ff",
+          "#dfefff"
+        ]
+      },
+      "dark-accent-soft": {
+        "role": "primary",
+        "displayName": "Blue Wash (dark theme)",
+        "canonical": "#141d33",
+        "theme": "dark",
+        "cssVar": "--accent-soft",
+        "tonalRamp": [
+          "#080b12",
+          "#1f2533",
+          "#384258",
+          "#55617b",
+          "#76829e",
+          "#99a5c0",
+          "#c1c9dc",
+          "#eaeef9"
+        ]
+      },
+      "dark-ok": {
+        "role": "tertiary",
+        "displayName": "Available Green (dark theme)",
+        "canonical": "#22c55e",
+        "theme": "dark",
+        "cssVar": "--ok",
+        "tonalRamp": [
+          "#001200",
+          "#003300",
+          "#005800",
+          "#007c0f",
+          "#00a03a",
+          "#3ac264",
+          "#8de09e",
+          "#d0fcd7"
+        ]
+      },
+      "dark-selection": {
+        "role": "primary",
+        "displayName": "Selection (dark theme)",
+        "canonical": "rgb(126 164 255 / 0.28)",
+        "theme": "dark",
+        "cssVar": "--selection",
+        "tonalRamp": [
+          "#03091f",
+          "#10214f",
+          "#213b85",
+          "#3b5baf",
+          "#5a7ed5",
+          "#7fa2f6",
+          "#aec8ff",
+          "#dfefff"
+        ]
+      },
+      "dark-nav-bg": {
+        "role": "neutral",
+        "displayName": "Nav Glass (dark theme)",
+        "canonical": "rgb(11 13 18 / 0.8)",
+        "theme": "dark",
+        "cssVar": "--nav-bg",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#404248",
+          "#5e6168",
+          "#7f8289",
+          "#a2a5ac",
+          "#c7c9ce",
+          "#edeef1"
+        ]
+      },
+      "hero-ground-top": {
+        "role": "neutral",
+        "displayName": "Studio Grey (top)",
+        "canonical": "#d7e0e7",
+        "theme": "fixed",
+        "cssVar": "--hero-ground",
+        "tonalRamp": [
+          "#080c0e",
+          "#212629",
+          "#3d4347",
+          "#5b6268",
+          "#7b848a",
+          "#9fa6ac",
+          "#c3cad0",
+          "#e9eff4"
+        ],
+        "gradient": "linear-gradient(180deg, #d7e0e7 0%, #d4dde4 55%, #ccd7de 100%)"
+      },
+      "hero-ground-mid": {
+        "role": "neutral",
+        "displayName": "Studio Grey (mid)",
+        "canonical": "#d4dde4",
+        "theme": "fixed",
+        "cssVar": "--hero-ground",
+        "tonalRamp": [
+          "#080c0e",
+          "#212629",
+          "#3d4347",
+          "#5b6268",
+          "#7b848a",
+          "#9fa6ac",
+          "#c3cad0",
+          "#e9eff4"
+        ]
+      },
+      "hero-ground-bottom": {
+        "role": "neutral",
+        "displayName": "Studio Grey (bottom)",
+        "canonical": "#ccd7de",
+        "theme": "fixed",
+        "cssVar": "--hero-ground",
+        "tonalRamp": [
+          "#070c0f",
+          "#20262a",
+          "#3c4348",
+          "#5a6368",
+          "#7a848a",
+          "#9da7ad",
+          "#c2cbd0",
+          "#e8f0f5"
+        ]
+      },
+      "hero-ink": {
+        "role": "neutral",
+        "displayName": "Hero Ink",
+        "canonical": "#111827",
+        "theme": "fixed",
+        "cssVar": "--hero-ink",
+        "tonalRamp": [
+          "#070b14",
+          "#202530",
+          "#3b4250",
+          "#596172",
+          "#798296",
+          "#9ca5b8",
+          "#c1c9da",
+          "#e7effe"
+        ]
+      },
+      "hero-name": {
+        "role": "accent",
+        "displayName": "Rust Name",
+        "canonical": "#842b10",
+        "theme": "fixed",
+        "cssVar": "--hero-name",
+        "tonalRamp": [
+          "#2e0e04",
+          "#5a1c08",
+          "#842b10",
+          "#a8471f",
+          "#c46c42",
+          "#da9677",
+          "#ecc2ae",
+          "#f9e8e0"
+        ]
+      },
+      "glass-card-bg": {
+        "role": "neutral",
+        "displayName": "Ink Glass",
+        "canonical": "rgb(17 24 39 / 0.72)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#070b14",
+          "#202530",
+          "#3b4250",
+          "#596172",
+          "#798296",
+          "#9ca5b8",
+          "#c1c9da",
+          "#e7effe"
+        ]
+      },
+      "glass-card-border": {
+        "role": "neutral",
+        "displayName": "Ink Glass Edge",
+        "canonical": "rgb(255 255 255 / 0.14)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "on-glass": {
+        "role": "neutral",
+        "displayName": "On Glass",
+        "canonical": "#ffffff",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "on-glass-muted": {
+        "role": "neutral",
+        "displayName": "On Glass Muted",
+        "canonical": "rgb(255 255 255 / 0.7)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "on-dark-line": {
+        "role": "neutral",
+        "displayName": "On-Dark Outline",
+        "canonical": "rgb(255 255 255 / 0.3)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "on-dark-line-hover": {
+        "role": "neutral",
+        "displayName": "On-Dark Outline (hover)",
+        "canonical": "rgb(255 255 255 / 0.5)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "on-dark-wash": {
+        "role": "neutral",
+        "displayName": "On-Dark Wash",
+        "canonical": "rgb(255 255 255 / 0.1)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "nav-hero-ink-2": {
+        "role": "neutral",
+        "displayName": "Nav Over Hero Ink",
+        "canonical": "#1f2937",
+        "theme": "fixed",
+        "cssVar": "--ink-2 (nav over hero)",
+        "tonalRamp": [
+          "#060b13",
+          "#1e262f",
+          "#3a434f",
+          "#586271",
+          "#778394",
+          "#9ba6b6",
+          "#c0cad9",
+          "#e6effd"
+        ]
+      },
+      "nav-hero-wash": {
+        "role": "neutral",
+        "displayName": "Nav Over Hero Wash",
+        "canonical": "rgb(255 255 255 / 0.55)",
+        "theme": "fixed",
+        "cssVar": "--bg-muted (nav over hero)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "nav-hero-subtle": {
+        "role": "neutral",
+        "displayName": "Nav Over Hero Subtle",
+        "canonical": "rgb(255 255 255 / 0.7)",
+        "theme": "fixed",
+        "cssVar": "--bg-subtle (nav over hero)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "nav-hero-line": {
+        "role": "neutral",
+        "displayName": "Nav Over Hero Hairline",
+        "canonical": "rgb(17 24 39 / 0.14)",
+        "theme": "fixed",
+        "cssVar": "--line (nav over hero)",
+        "tonalRamp": [
+          "#070b14",
+          "#202530",
+          "#3b4250",
+          "#596172",
+          "#798296",
+          "#9ca5b8",
+          "#c1c9da",
+          "#e7effe"
+        ]
+      },
+      "nav-hero-line-strong": {
+        "role": "neutral",
+        "displayName": "Nav Over Hero Hairline Strong",
+        "canonical": "rgb(17 24 39 / 0.2)",
+        "theme": "fixed",
+        "cssVar": "--line-strong (nav over hero)",
+        "tonalRamp": [
+          "#070b14",
+          "#202530",
+          "#3b4250",
+          "#596172",
+          "#798296",
+          "#9ca5b8",
+          "#c1c9da",
+          "#e7effe"
+        ]
+      },
+      "ember-glow": {
+        "role": "secondary",
+        "displayName": "Ember Glow",
+        "canonical": "rgb(178 54 20 / 0.9)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#140705",
+          "#411207",
+          "#741a01",
+          "#a62a02",
+          "#cc4f2f",
+          "#e87b5f",
+          "#f6b19f",
+          "#ffe9e3"
+        ],
+        "gradient": "radial-gradient(70% 60% at 80% 105%, rgb(178 54 20 / 0.9), transparent 70%)"
+      },
+      "ember-glow-deep": {
+        "role": "secondary",
+        "displayName": "Ember Glow Deep",
+        "canonical": "rgb(132 43 16 / 0.8)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#2e0e04",
+          "#5a1c08",
+          "#842b10",
+          "#a8471f",
+          "#c46c42",
+          "#da9677",
+          "#ecc2ae",
+          "#f9e8e0"
+        ],
+        "gradient": "radial-gradient(55% 55% at 6% -5%, rgb(132 43 16 / 0.8), transparent 70%)"
+      },
+      "ember-top": {
+        "role": "neutral",
+        "displayName": "Ember Base (top)",
+        "canonical": "#2a0a05",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0e0a09",
+          "#2f201c",
+          "#543731",
+          "#7a524a",
+          "#9b7268",
+          "#ba948c",
+          "#d6beb9",
+          "#f4edeb"
+        ],
+        "gradient": "linear-gradient(165deg, #2a0a05 0%, #160604 55%, #0d0403 100%)"
+      },
+      "ember-mid": {
+        "role": "neutral",
+        "displayName": "Ember Base (mid)",
+        "canonical": "#160604",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0e0a09",
+          "#2f201c",
+          "#543731",
+          "#7a524a",
+          "#9b7268",
+          "#ba948c",
+          "#d6beb9",
+          "#f4edeb"
+        ]
+      },
+      "ember-bottom": {
+        "role": "neutral",
+        "displayName": "Ember Base (bottom)",
+        "canonical": "#0d0403",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0e0a09",
+          "#2f201c",
+          "#543731",
+          "#7a524a",
+          "#9b7268",
+          "#ba948c",
+          "#d6beb9",
+          "#f4edeb"
+        ]
+      },
+      "on-ember": {
+        "role": "neutral",
+        "displayName": "On Ember",
+        "canonical": "#ffffff",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "on-ember-muted": {
+        "role": "neutral",
+        "displayName": "On Ember Muted",
+        "canonical": "rgb(255 255 255 / 0.72)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "on-ember-link-hover": {
+        "role": "neutral",
+        "displayName": "On Ember Link Hover",
+        "canonical": "rgb(255 255 255 / 0.8)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ember-field-bg": {
+        "role": "neutral",
+        "displayName": "Ember Field Fill",
+        "canonical": "rgb(255 255 255 / 0.06)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ember-field-line": {
+        "role": "neutral",
+        "displayName": "Ember Field Border",
+        "canonical": "rgb(255 255 255 / 0.22)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ember-wash": {
+        "role": "neutral",
+        "displayName": "Ember Wash",
+        "canonical": "rgb(255 255 255 / 0.1)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ember-wash-strong": {
+        "role": "neutral",
+        "displayName": "Ember Wash Strong",
+        "canonical": "rgb(255 255 255 / 0.18)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ember-selection": {
+        "role": "neutral",
+        "displayName": "Ember Selection",
+        "canonical": "rgb(255 255 255 / 0.25)",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "shadow-black": {
+        "role": "neutral",
+        "displayName": "Shadow Black",
+        "canonical": "#000000",
+        "theme": "fixed",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "note": "Shadow pigment only, always at an alpha: dark-theme shadow-sm and shadow-md, the ember card and ember button shadows."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero name only: the h1, uppercase, one clipped box per word, Rust Name in both themes."
+      },
+      "hello": {
+        "displayName": "Hello",
+        "purpose": "The greeting on the hero glass card, in white."
+      },
+      "hello-compact": {
+        "displayName": "Hello Compact",
+        "purpose": "The hero greeting at 720px and below."
+      },
+      "display-title": {
+        "displayName": "Display Title",
+        "purpose": "Centred uppercase titles that open Experience and Tools; ink on the sheet, white on ember."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles for Work, About and Contact."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Project names; experience card titles use 600 at body size."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "The contact intro line, ink-2 (white at 72% on ember), max 52ch."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "The description on the large experience cards, in ink."
+      },
+      "quote-small": {
+        "displayName": "Quote Small",
+        "purpose": "The description on the education cards."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Page default; prose in ink-2, max 62ch."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Project summaries, the experience card organisation line, and the hero card intro."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons and text links."
+      },
+      "label-caps": {
+        "displayName": "Label Caps",
+        "purpose": "Tool names on tool cards, uppercase."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Project kind, notes, footer, hero card status line; tool areas at 13px."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Dates on experience cards, tabular numerals."
+      },
+      "mono-tag": {
+        "displayName": "Mono Tag",
+        "purpose": "Stack tags and tool-card index numerals at 12px; frame-bar URLs at 11px."
+      }
+    },
+    "themes": {
+      "light": {
+        "selector": ":root",
+        "colorScheme": "light",
+        "themeColor": "#ffffff"
+      },
+      "dark": {
+        "selector": "@media (prefers-color-scheme: dark) :root:not([data-theme=\"light\"]), :root[data-theme=\"dark\"]",
+        "colorScheme": "dark",
+        "themeColor": "#0b0d12",
+        "tokenPrefix": "dark-",
+        "imageFilter": "brightness(0.86) on project screenshots and the about photo"
+      },
+      "fixed": {
+        "selector": ".hero (and .nav[data-over-hero=\"true\"]:not([data-open=\"true\"]))",
+        "colorScheme": "light",
+        "note": "The hero stage and the nav floating over it keep light values in both themes; the hero photo is never dimmed."
+      },
+      "ember": {
+        "selector": ".ember (Experience, Contact)",
+        "colorScheme": "dark",
+        "note": "The ember ground, its white text, white focus ring and selection, and the white experience cards on it are identical in both themes."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-sm",
+        "value": "0 1px 2px rgb(17 24 39 / 0.05)",
+        "dark": "0 1px 2px rgb(0 0 0 / 0.4)",
+        "purpose": "Rest: seats buttons and the email field on the ground."
+      },
+      {
+        "name": "shadow-md",
+        "value": "0 12px 28px -12px rgb(17 24 39 / 0.18), 0 2px 6px -2px rgb(17 24 39 / 0.06)",
+        "dark": "0 16px 32px -14px rgb(0 0 0 / 0.7), 0 2px 6px -2px rgb(0 0 0 / 0.4)",
+        "purpose": "Lift: project card hover only."
+      },
+      {
+        "name": "primary-sheen",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.14)",
+        "purpose": "Top-edge highlight on the primary button, stacked with shadow-sm."
+      },
+      {
+        "name": "glass-float",
+        "value": "0 28px 56px -28px rgb(17 24 39 / 0.55)",
+        "purpose": "Hero glass card at rest, over the photo."
+      },
+      {
+        "name": "sheet-edge",
+        "value": "0 -24px 48px -24px rgb(17 24 39 / 0.18)",
+        "purpose": "Top edge of the page sheet as it slides over the pinned hero."
+      },
+      {
+        "name": "ember-card",
+        "value": "0 30px 60px -32px rgb(0 0 0 / 0.6)",
+        "purpose": "White experience cards at rest on the ember ground."
+      },
+      {
+        "name": "ember-button-rest",
+        "value": "0 1px 2px rgb(0 0 0 / 0.2)",
+        "purpose": "The inverted primary button on ember, in place of shadow-sm."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing curve; every transition and animation."
+      },
+      {
+        "name": "duration-skip-link",
+        "value": "160ms",
+        "purpose": "Skip link drop-in."
+      },
+      {
+        "name": "duration-state",
+        "value": "180ms",
+        "purpose": "Buttons, links, icon buttons, nav links, copy button."
+      },
+      {
+        "name": "duration-card",
+        "value": "220ms",
+        "purpose": "Project card border, shadow and 2px rise; tool card fill and 2px rise."
+      },
+      {
+        "name": "duration-tool-mark",
+        "value": "320ms",
+        "purpose": "Tool brand mark scales to 1.08 on card hover."
+      },
+      {
+        "name": "duration-nav-border",
+        "value": "240ms",
+        "purpose": "Nav hairline appearing after 8px of scroll."
+      },
+      {
+        "name": "duration-panel",
+        "value": "360ms",
+        "purpose": "Mobile panel clip-path wipe."
+      },
+      {
+        "name": "duration-copy-pop",
+        "value": "380ms",
+        "purpose": "Copied check icon pops from scale 0.4."
+      },
+      {
+        "name": "duration-image-zoom",
+        "value": "600ms",
+        "purpose": "Screenshot scale to 1.03 on card hover."
+      },
+      {
+        "name": "hero-settle",
+        "value": "1600ms; scale(1.06) + blur(10px) + opacity 0 to rest",
+        "purpose": "Hero photo settles once on load; reduced-motion gated."
+      },
+      {
+        "name": "hero-word-up",
+        "value": "1100ms; translateY(105%) to rest inside each word's clip; stagger 110ms, base delay 250ms",
+        "purpose": "Hero name words rise once on load; reduced-motion gated."
+      },
+      {
+        "name": "hero-card-rise",
+        "value": "900ms, 650ms delay; translateY(10px) + blur(6px) + opacity 0 to rest",
+        "purpose": "Hero card follows the name; reduced-motion gated."
+      },
+      {
+        "name": "status-ping",
+        "value": "2.4s infinite, 1.8s delay; ring scale 0.6 to 1.5, opacity 0.7 to 0",
+        "purpose": "Availability dot; reduced-motion gated."
+      },
+      {
+        "name": "copy-reset",
+        "value": "2200ms",
+        "purpose": "Copied state reverts."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "hero-card-drop",
+        "value": "1000px",
+        "purpose": "Hero card drops above the name, widens to 460px, long intro sentence hides. Education cards go two columns; tool grid three."
+      },
+      {
+        "name": "work-tablet",
+        "value": "641px to 1000px",
+        "purpose": "Work cards one per row, frame at 46% beside the text."
+      },
+      {
+        "name": "about-stack",
+        "value": "860px",
+        "purpose": "About grid stacks; photo max 360px."
+      },
+      {
+        "name": "nav-mobile",
+        "value": "760px",
+        "purpose": "Nav links and CV hide; menu button and mobile panel."
+      },
+      {
+        "name": "hero-recrop",
+        "value": "720px",
+        "purpose": "Hero photo re-crops to 104% height at -5% top; card padding 20px; greeting 1.5rem. Work and education cards stack to one column."
+      },
+      {
+        "name": "single-column",
+        "value": "640px",
+        "purpose": "Work single column; section heads stack; tool grid two columns (10px gap), 168px cards with 36px marks; the Also row stacks."
+      },
+      {
+        "name": "contact-full",
+        "value": "520px",
+        "purpose": "Email field and contact button go full width."
+      },
+      {
+        "name": "hero-short-landscape",
+        "value": "max-height 640px and min-width 1001px",
+        "purpose": "Hero grows past 100svh instead of crushing the card."
+      }
+    ],
+    "browserSurface": {
+      "selection": "background var(--selection); color var(--ink). On ember: rgb(255 255 255 / 0.25) behind #ffffff",
+      "focusRing": "outline 2px solid var(--accent); outline-offset 3px; border-radius 6px (all :focus-visible); outline-color #ffffff on the ember ground",
+      "caret": "var(--accent)",
+      "scrollbar": "scrollbar-width thin; scrollbar-color var(--line-strong) transparent; WebKit 10px, thumb var(--line-strong) with 3px var(--bg) border, radius 999px",
+      "scrollPaddingTop": "80px",
+      "skipLink": "ink chip, 8px radius, 10px 14px padding, drops from -48px to 12px on focus"
+    },
+    "layout": {
+      "container": "1120px + 2 x gutter",
+      "gutter": "clamp(16px, 4vw, 32px)",
+      "section": "clamp(64px, 9vw, 112px)",
+      "navHeight": "64px",
+      "workGrid": "repeat(3, minmax(0, 1fr)) gap 24px",
+      "aboutGrid": "7fr / 4fr",
+      "heroStage": "position sticky, top 0, height 100svh, min-height 560px, margin-top -64px (under the nav)",
+      "heroPhoto": "centred, height 122%, top -12% (720px and below: 104%, -5%)",
+      "heroName": "full width, bottom clamp(6px, 1.4vw, 22px), word gap 0.22em",
+      "sheet": "position relative, z-index 1, background var(--bg); wraps Work to Contact, and the footer",
+      "emberSections": "Experience and Contact; full-bleed ember ground, grain layer at z-index -1; no hairline above the section or the next one",
+      "displayTitle": "centred, margin-bottom clamp(40px, 6vw, 72px)",
+      "experienceGrid": "work: repeat(2, minmax(0, 1fr)) gap 16px; education: repeat(3, minmax(0, 1fr)) gap 16px, 16px below (2 columns at 1000px, 1 at 720px)",
+      "toolGrid": "repeat(4, minmax(0, 1fr)) gap 12px (3 at 1000px; 2 with 10px gap at 640px); Also row 32px below",
+      "contact": "content max-width 760px on the ember ground"
+    },
+    "materials": [
+      {
+        "name": "nav-glass",
+        "value": "background var(--nav-bg); backdrop-filter saturate(180%) blur(14px)",
+        "purpose": "Sticky nav once the sheet is under it."
+      },
+      {
+        "name": "ink-glass",
+        "value": "background rgb(17 24 39 / 0.72); border 1px solid rgb(255 255 255 / 0.14); backdrop-filter blur(20px) saturate(140%)",
+        "purpose": "Hero card."
+      },
+      {
+        "name": "film-grain",
+        "value": "fractalNoise SVG tile (baseFrequency 0.9, 3 octaves, desaturated), 180px, mix-blend-mode overlay; opacity 0.22 on the hero, 0.25 on the ember ground",
+        "purpose": "Texture over the hero photo and ground, and over the ember ground. Nowhere else."
+      },
+      {
+        "name": "hero-edge-mask",
+        "value": "mask-image linear-gradient(90deg, transparent 0, #000 16%, #000 84%, transparent 100%)",
+        "purpose": "Feathers the portrait's sides into the matched ground."
+      },
+      {
+        "name": "ember-ground",
+        "value": "radial-gradient(70% 60% at 80% 105%, rgb(178 54 20 / 0.9), transparent 70%), radial-gradient(55% 55% at 6% -5%, rgb(132 43 16 / 0.8), transparent 70%), linear-gradient(165deg, #2a0a05 0%, #160604 55%, #0d0403 100%); color #ffffff; color-scheme dark",
+        "purpose": "Experience and Contact, both themes; with film grain at 0.25."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Hero Stage",
+      "kind": "custom",
+      "refersTo": "hero-stage",
+      "description": "Signature opening: pinned light stage matched to the photo backdrop, film grain, the glass card, and the giant name (h1) across the bottom. Stays light in both themes.",
+      "html": "<section class=\"ds-hero\"><div class=\"ds-hero-photo\"></div><div class=\"ds-hero-grain\"></div><div class=\"ds-hero-content\"><div class=\"ds-hero-card\"><p class=\"ds-hero-hello\">Hey, I’m Joe</p><p class=\"ds-hero-intro\">An <b>AI full-stack developer</b> based in <b>Accra, Ghana</b>. I build websites and business systems.</p><div class=\"ds-hero-actions\"><a class=\"ds-btn ds-btn-primary\" href=\"#\">Hire me</a><a class=\"ds-btn ds-btn-on-dark\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 15V3\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/></svg>Download CV</a></div><p class=\"ds-hero-status\"><span class=\"ds-hero-dot\"></span>Open to developer roles and freelance projects</p></div></div><h1 class=\"ds-hero-name\"><span class=\"ds-hero-word\"><span>Joe</span></span><span class=\"ds-hero-word\"><span>Cole</span></span></h1></section>",
+      "css": ".ds-hero { position: relative; height: 560px; overflow: hidden; background: linear-gradient(180deg, #d7e0e7 0%, #d4dde4 55%, #ccd7de 100%); color: #111827; color-scheme: light; container-type: inline-size; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-hero-photo { position: absolute; left: 50%; top: -12%; width: 46%; height: 122%; transform: translateX(-50%); background: radial-gradient(ellipse 34% 26% at 50% 34%, #6b4a36 0 98%, transparent 100%), radial-gradient(ellipse 50% 40% at 50% 100%, #e3a63a 0 98%, transparent 100%); -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 16%, #000 84%, transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 16%, #000 84%, transparent 100%); } .ds-hero-grain { position: absolute; inset: 0; pointer-events: none; opacity: 0.22; mix-blend-mode: overlay; background-image: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>\"); } .ds-hero-content { position: absolute; inset: 0; display: flex; align-items: center; padding: 64px 32px calc(20.2cqi * 0.8); } .ds-hero-name { position: absolute; left: 0; right: 0; bottom: 12px; margin: 0; display: flex; justify-content: center; gap: 0.22em; font-size: 20.2cqi; line-height: 0.8; font-weight: 650; letter-spacing: -0.04em; text-transform: uppercase; white-space: nowrap; color: #842b10; } .ds-hero-word { display: inline-block; overflow: hidden; padding-top: 0.06em; margin-top: -0.06em; } .ds-hero-word > span { display: inline-block; } .ds-hero-card { width: min(380px, 100%); padding: 24px; border-radius: 16px; border: 1px solid rgb(255 255 255 / 0.14); background: rgb(17 24 39 / 0.72); -webkit-backdrop-filter: blur(20px) saturate(140%); backdrop-filter: blur(20px) saturate(140%); box-shadow: 0 28px 56px -28px rgb(17 24 39 / 0.55); color: #ffffff; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-hero-card p { margin: 0; } .ds-hero-hello { font-size: 1.75rem; line-height: 1.1; font-weight: 620; letter-spacing: -0.03em; } .ds-hero-intro { margin-top: 14px !important; font-size: 0.9375rem; line-height: 1.55; color: rgb(255 255 255 / 0.7); } .ds-hero-intro b { color: #ffffff; font-weight: 550; } .ds-hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; } .ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid transparent; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: 0.9375rem; font-weight: 550; letter-spacing: -0.005em; white-space: nowrap; cursor: pointer; text-decoration: none; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), box-shadow 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-btn svg { width: 17px; height: 17px; flex: none; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; } .ds-btn-primary { background: var(--accent, #2563eb); color: var(--on-accent, #ffffff); box-shadow: var(--shadow-sm, 0 1px 2px rgb(17 24 39 / 0.05)), inset 0 1px 0 rgb(255 255 255 / 0.14); } .ds-btn-primary:hover { background: var(--accent-hover, #1d4ed8); } .ds-btn-on-dark { background: transparent; border-color: rgb(255 255 255 / 0.3); color: #ffffff; } .ds-btn-on-dark:hover { background: rgb(255 255 255 / 0.1); border-color: rgb(255 255 255 / 0.5); } .ds-hero-status { display: flex; align-items: flex-start; gap: 10px; margin-top: 18px !important; font-size: 0.875rem; color: rgb(255 255 255 / 0.7); } .ds-hero-dot { flex: none; margin-top: 0.5em; width: 8px; height: 8px; border-radius: 50%; background: var(--ok, #16a34a); }"
+    },
+    {
+      "name": "Hero Name",
+      "kind": "custom",
+      "refersTo": "hero-name",
+      "description": "The display type: the name as the h1, Geist 650 at 20.2vw, line-height 0.8, -0.04em, uppercase, each word clipped so it can rise.",
+      "html": "<div class=\"ds-name-demo\"><h1 class=\"ds-hero-name\"><span class=\"ds-hero-word\"><span>Joe</span></span><span class=\"ds-hero-word\"><span>Cole</span></span></h1></div>",
+      "css": ".ds-name-demo { container-type: inline-size; padding: 24px 0 12px; background: linear-gradient(180deg, #d7e0e7 0%, #d4dde4 55%, #ccd7de 100%); } .ds-hero-name { margin: 0; display: flex; justify-content: center; gap: 0.22em; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: 20.2cqi; line-height: 0.8; font-weight: 650; letter-spacing: -0.04em; text-transform: uppercase; white-space: nowrap; color: #842b10; } .ds-hero-word { display: inline-block; overflow: hidden; padding-top: 0.06em; margin-top: -0.06em; } .ds-hero-word > span { display: inline-block; animation: ds-word-up 1100ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)) both; } .ds-hero-word + .ds-hero-word > span { animation-delay: 110ms; } @keyframes ds-word-up { from { transform: translateY(105%); } } @media (prefers-reduced-motion: reduce) { .ds-hero-word > span { animation: none; } }"
+    },
+    {
+      "name": "Hero Glass Card",
+      "kind": "card",
+      "refersTo": "hero-card",
+      "description": "Dark ink glass over the hero photo: greeting, intro with white emphasis, Hire me plus the on-dark CV button, and the availability line.",
+      "html": "<div class=\"ds-hero-card-demo\"><div class=\"ds-hero-card\"><p class=\"ds-hero-hello\">Hey, I’m Joe</p><p class=\"ds-hero-intro\">An <b>AI full-stack developer</b> based in <b>Accra, Ghana</b>. I build websites and business systems.</p><div class=\"ds-hero-actions\"><a class=\"ds-btn ds-btn-primary\" href=\"#\">Hire me</a><a class=\"ds-btn ds-btn-on-dark\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 15V3\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/></svg>Download CV</a></div><p class=\"ds-hero-status\"><span class=\"ds-hero-dot\"></span>Open to developer roles and freelance projects</p></div></div>",
+      "css": ".ds-hero-card-demo { padding: 32px; background: linear-gradient(180deg, #d7e0e7 0%, #d4dde4 55%, #ccd7de 100%); } .ds-hero-card { width: min(380px, 100%); padding: 24px; border-radius: 16px; border: 1px solid rgb(255 255 255 / 0.14); background: rgb(17 24 39 / 0.72); -webkit-backdrop-filter: blur(20px) saturate(140%); backdrop-filter: blur(20px) saturate(140%); box-shadow: 0 28px 56px -28px rgb(17 24 39 / 0.55); color: #ffffff; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-hero-card p { margin: 0; } .ds-hero-hello { font-size: 1.75rem; line-height: 1.1; font-weight: 620; letter-spacing: -0.03em; } .ds-hero-intro { margin-top: 14px !important; font-size: 0.9375rem; line-height: 1.55; color: rgb(255 255 255 / 0.7); } .ds-hero-intro b { color: #ffffff; font-weight: 550; } .ds-hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; } .ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid transparent; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: 0.9375rem; font-weight: 550; letter-spacing: -0.005em; white-space: nowrap; cursor: pointer; text-decoration: none; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), box-shadow 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-btn svg { width: 17px; height: 17px; flex: none; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; } .ds-btn-primary { background: var(--accent, #2563eb); color: var(--on-accent, #ffffff); box-shadow: var(--shadow-sm, 0 1px 2px rgb(17 24 39 / 0.05)), inset 0 1px 0 rgb(255 255 255 / 0.14); } .ds-btn-primary:hover { background: var(--accent-hover, #1d4ed8); } .ds-btn-on-dark { background: transparent; border-color: rgb(255 255 255 / 0.3); color: #ffffff; } .ds-btn-on-dark:hover { background: rgb(255 255 255 / 0.1); border-color: rgb(255 255 255 / 0.5); } .ds-hero-status { display: flex; align-items: flex-start; gap: 10px; margin-top: 18px !important; font-size: 0.875rem; color: rgb(255 255 255 / 0.7); } .ds-hero-dot { flex: none; margin-top: 0.5em; width: 8px; height: 8px; border-radius: 50%; background: var(--ok, #16a34a); }"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one blue fill: Hire me, Email me. One per view.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Hire me</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid transparent; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: 0.9375rem; font-weight: 550; letter-spacing: -0.005em; white-space: nowrap; cursor: pointer; text-decoration: none; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), box-shadow 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: var(--accent, #2563eb); color: var(--on-accent, #ffffff); box-shadow: var(--shadow-sm, 0 1px 2px rgb(17 24 39 / 0.05)), inset 0 1px 0 rgb(255 255 255 / 0.14); } .ds-btn-primary:hover { background: var(--accent-hover, #1d4ed8); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outline button for the secondary action (Download CV).",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 15V3\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/></svg>Download CV</a>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid transparent; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: 0.9375rem; font-weight: 550; letter-spacing: -0.005em; white-space: nowrap; cursor: pointer; text-decoration: none; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), box-shadow 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: var(--bg, #ffffff); border-color: var(--line-strong, #d3d7de); color: var(--ink, #111827); box-shadow: var(--shadow-sm, 0 1px 2px rgb(17 24 39 / 0.05)); } .ds-btn-secondary svg { width: 17px; height: 17px; flex: none; } .ds-btn-secondary:hover { border-color: var(--ink-3, #5f6673); background: var(--bg-subtle, #f8f9fb); } .ds-btn-secondary:active { transform: translateY(1px); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; }"
+    },
+    {
+      "name": "On-Dark Button",
+      "kind": "button",
+      "refersTo": "button-on-dark",
+      "description": "Outline button for the secondary action on the hero glass card (Download CV).",
+      "html": "<div class=\"ds-on-dark-demo\"><a class=\"ds-btn-on-dark\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 15V3\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/></svg>Download CV</a></div>",
+      "css": ".ds-on-dark-demo { display: inline-block; padding: 20px; border-radius: 16px; background: rgb(17 24 39 / 0.92); } .ds-btn-on-dark { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 18px; border-radius: 10px; border: 1px solid transparent; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: 0.9375rem; font-weight: 550; letter-spacing: -0.005em; white-space: nowrap; cursor: pointer; text-decoration: none; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), box-shadow 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: transparent; border-color: rgb(255 255 255 / 0.3); color: #ffffff; } .ds-btn-on-dark svg { width: 17px; height: 17px; flex: none; } .ds-btn-on-dark:hover { background: rgb(255 255 255 / 0.1); border-color: rgb(255 255 255 / 0.5); } .ds-btn-on-dark:active { transform: translateY(1px); } .ds-btn-on-dark:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Blue inline action with a trailing arrow; underline fades in on hover.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">More on GitHub<svg viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ".ds-text-link { display: inline-flex; align-items: center; gap: 4px; color: var(--accent-text, #2563eb); font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: 0.9375rem; font-weight: 550; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 4px; text-decoration-thickness: 1px; transition: text-decoration-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-text-link svg { transition: transform 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-text-link:hover { text-decoration-color: currentColor; } .ds-text-link:hover svg { transform: translate(1px, -1px); } .ds-text-link:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "Theme toggle, menu button and social links.",
+      "html": "<button class=\"ds-icon-btn\" type=\"button\" aria-label=\"Switch to dark theme\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z\"/></svg></button>",
+      "css": ".ds-icon-btn { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 9px; border: 1px solid transparent; background: transparent; color: var(--ink-2, #374151); cursor: pointer; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-icon-btn:hover { background: var(--bg-muted, #f1f3f6); color: var(--ink, #111827); } .ds-icon-btn:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; }"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Mono stack tag for projects and the Also list under the tool grid; never a proficiency meter.",
+      "html": "<ul class=\"ds-tags\"><li class=\"ds-tag\">React</li><li class=\"ds-tag\">Next.js</li><li class=\"ds-tag\">CSS</li></ul>",
+      "css": ".ds-tag { display: inline-flex; align-items: center; height: 26px; padding: 0 9px; border-radius: 6px; background: var(--bg-muted, #f1f3f6); color: var(--ink-2, #374151); font-family: var(--font-mono, 'Geist Mono', ui-monospace, monospace); font-size: 0.75rem; white-space: nowrap; } .ds-tags { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 0; padding: 0; }"
+    },
+    {
+      "name": "Sticky Nav",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "64px translucent bar: brand left, links and an actions group right; hairline appears on scroll.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-brand-mark\">JC</span>Joe Cole</a><nav class=\"ds-nav-right\"><a href=\"#\">Work</a><a href=\"#\">About</a><a href=\"#\">Experience</a><a href=\"#\">Skills</a><a href=\"#\">Contact</a><span class=\"ds-nav-actions\"><a class=\"ds-nav-cv\" href=\"#\">CV</a><button class=\"ds-nav-icon\" type=\"button\" aria-label=\"Switch to dark theme\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z\"/></svg></button></span></nav></header>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; height: 64px; padding: 0 24px; background: var(--nav-bg, rgb(255 255 255 / 0.82)); backdrop-filter: saturate(180%) blur(14px); border-bottom: 1px solid var(--line, #e5e7eb); font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 620; font-size: 1rem; letter-spacing: -0.015em; color: var(--ink, #111827); text-decoration: none; } .ds-brand-mark { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: var(--ink, #111827); color: var(--bg, #ffffff); font-size: 0.75rem; font-weight: 700; } .ds-nav-right { display: flex; align-items: center; gap: 4px; } .ds-nav-right > a { padding: 8px 12px; border-radius: 8px; font-size: 0.9375rem; color: var(--ink-2, #374151); text-decoration: none; transition: color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-nav-right > a:hover { color: var(--ink, #111827); background: var(--bg-muted, #f1f3f6); } .ds-nav-actions { display: flex; align-items: center; gap: 4px; margin-left: 8px; padding-left: 12px; border-left: 1px solid var(--line, #e5e7eb); } .ds-nav-cv { display: inline-flex; align-items: center; height: 34px; padding: 0 12px; border-radius: 8px; border: 1px solid var(--line-strong, #d3d7de); background: var(--bg, #ffffff); color: var(--ink, #111827); font-size: 0.875rem; font-weight: 550; text-decoration: none; } .ds-nav-icon { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 9px; border: 0; background: transparent; color: var(--ink-2, #374151); cursor: pointer; } .ds-nav-icon:hover { background: var(--bg-muted, #f1f3f6); color: var(--ink, #111827); } .ds-nav a:focus-visible, .ds-nav button:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; }"
+    },
+    {
+      "name": "Nav Over Hero",
+      "kind": "nav",
+      "refersTo": "nav-over-hero",
+      "description": "The nav while it floats over the hero stage: transparent, no blur or border, pinned to light ink in both themes; returns to the frosted bar when the sheet reaches it.",
+      "html": "<div class=\"ds-navh-demo\"><header class=\"ds-navh\"><a class=\"ds-navh-brand\" href=\"#\"><span class=\"ds-navh-mark\">JC</span>Joe Cole</a><nav class=\"ds-navh-right\"><a href=\"#\">Work</a><a href=\"#\">About</a><a href=\"#\">Experience</a><a href=\"#\">Skills</a><a href=\"#\">Contact</a><span class=\"ds-navh-actions\"><a class=\"ds-navh-cv\" href=\"#\">CV</a></span></nav></header></div>",
+      "css": ".ds-navh-demo { background: linear-gradient(180deg, #d7e0e7 0%, #d4dde4 55%, #ccd7de 100%); padding-bottom: 48px; } .ds-navh { display: flex; align-items: center; justify-content: space-between; height: 64px; padding: 0 24px; background: transparent; border-bottom: 1px solid transparent; color: #111827; color-scheme: light; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-navh-brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 620; font-size: 1.0625rem; letter-spacing: -0.015em; color: #111827; text-decoration: none; } .ds-navh-mark { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: #111827; color: #ffffff; font-size: 0.75rem; font-weight: 700; } .ds-navh-right { display: flex; align-items: center; gap: 4px; } .ds-navh-right > a { padding: 8px 12px; border-radius: 8px; font-size: 0.9375rem; color: #1f2937; text-decoration: none; transition: color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-navh-right > a:hover { color: #111827; background: rgb(255 255 255 / 0.55); } .ds-navh-actions { display: flex; align-items: center; margin-left: 8px; padding-left: 12px; border-left: 1px solid rgb(17 24 39 / 0.14); } .ds-navh-cv { display: inline-flex; align-items: center; height: 34px; padding: 0 12px; border-radius: 8px; border: 1px solid rgb(17 24 39 / 0.2); background: #ffffff; color: #111827; font-size: 0.875rem; font-weight: 550; text-decoration: none; } .ds-navh-cv:hover { background: rgb(255 255 255 / 0.7); } .ds-navh a:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; }"
+    },
+    {
+      "name": "Project Card (browser frame)",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "Signature card: screenshot in a thin browser frame above title, kind, summary, tags and links.",
+      "html": "<article class=\"ds-project\"><div class=\"ds-frame\"><div class=\"ds-frame-bar\"><i></i><i></i><i></i><span>theurbanartistry.com</span></div><div class=\"ds-frame-view\"></div></div><div class=\"ds-project-body\"><h3>The Urban Artistry</h3><p class=\"ds-kind\">Client website, WordPress</p><p class=\"ds-summary\">A fully responsive site for a client, built and handed over in WordPress.</p><ul class=\"ds-tags\"><li class=\"ds-tag\">WordPress</li><li class=\"ds-tag\">CSS</li></ul><a class=\"ds-text-link\" href=\"#\">Live site<svg viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a></div></article>",
+      "css": ".ds-project { display: flex; flex-direction: column; max-width: 360px; border: 1px solid var(--line, #e5e7eb); border-radius: 12px; background: var(--bg, #ffffff); overflow: hidden; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); transition: border-color 220ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), box-shadow 220ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 220ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-project:hover { border-color: var(--line-strong, #d3d7de); box-shadow: var(--shadow-md, 0 12px 28px -12px rgb(17 24 39 / 0.18), 0 2px 6px -2px rgb(17 24 39 / 0.06)); transform: translateY(-2px); } .ds-frame { background: var(--bg-subtle, #f8f9fb); border-bottom: 1px solid var(--line, #e5e7eb); } .ds-frame-bar { display: flex; align-items: center; gap: 6px; height: 32px; padding: 0 12px; border-bottom: 1px solid var(--line, #e5e7eb); } .ds-frame-bar i { width: 8px; height: 8px; border-radius: 50%; background: var(--line-strong, #d3d7de); } .ds-frame-bar span { margin-left: 8px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-3, #5f6673); font-family: var(--font-mono, 'Geist Mono', ui-monospace, monospace); font-size: 0.6875rem; } .ds-frame-view { aspect-ratio: 16 / 10; background: var(--bg-muted, #f1f3f6); } .ds-project-body { display: flex; flex-direction: column; gap: 12px; padding: 20px 20px 22px; } .ds-project-body h3 { margin: 0; font-size: 1.1875rem; line-height: 1.3; font-weight: 600; letter-spacing: -0.012em; color: var(--ink, #111827); } .ds-kind { margin: -6px 0 0; font-size: 0.875rem; color: var(--ink-3, #5f6673); } .ds-summary { margin: 0; font-size: 0.9375rem; line-height: 1.55; color: var(--ink-2, #374151); } .ds-tag { display: inline-flex; align-items: center; height: 26px; padding: 0 9px; border-radius: 6px; background: var(--bg-muted, #f1f3f6); color: var(--ink-2, #374151); font-family: var(--font-mono, 'Geist Mono', ui-monospace, monospace); font-size: 0.75rem; white-space: nowrap; } .ds-tags { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 0; padding: 0; } .ds-text-link { display: inline-flex; align-items: center; gap: 4px; color: var(--accent-text, #2563eb); font-size: 0.9375rem; font-weight: 550; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 4px; } .ds-text-link:hover { text-decoration-color: currentColor; }"
+    },
+    {
+      "name": "Copy-Email Field",
+      "kind": "input",
+      "refersTo": "email-field",
+      "description": "Signature interaction: the address as a mailto link with an inline Copy button that confirms in blue.",
+      "html": "<div class=\"ds-email-field\"><a href=\"#\">hello@example.com</a><button class=\"ds-copy-btn\" type=\"button\"><svg viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg>Copy</button></div><div class=\"ds-email-field\"><a href=\"#\">hello@example.com</a><button class=\"ds-copy-btn\" type=\"button\" data-copied=\"true\">Copied</button></div>",
+      "css": ".ds-email-field { display: flex; align-items: center; gap: 4px; height: 52px; max-width: 360px; margin-bottom: 12px; padding: 0 6px 0 16px; border: 1px solid var(--line-strong, #d3d7de); border-radius: 12px; background: var(--bg, #ffffff); box-shadow: var(--shadow-sm, 0 1px 2px rgb(17 24 39 / 0.05)); font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-email-field a { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 1rem; font-weight: 500; letter-spacing: -0.01em; color: var(--ink, #111827); text-decoration: none; } .ds-email-field a:hover { color: var(--accent-text, #2563eb); } .ds-copy-btn { display: inline-flex; align-items: center; gap: 6px; height: 38px; margin-left: 8px; padding: 0 12px; border: 0; border-radius: 8px; background: var(--bg-muted, #f1f3f6); color: var(--ink-2, #374151); font: inherit; font-size: 0.875rem; font-weight: 550; cursor: pointer; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-copy-btn:hover { background: var(--line, #e5e7eb); color: var(--ink, #111827); } .ds-copy-btn[data-copied=\"true\"] { background: var(--accent-soft, #eef3ff); color: var(--accent-text, #2563eb); } .ds-copy-btn:focus-visible, .ds-email-field a:focus-visible { outline: 2px solid var(--accent, #2563eb); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Page Sheet",
+      "kind": "custom",
+      "refersTo": "sheet",
+      "description": "The page-ground surface (Work to footer) that slides up over the pinned hero with a soft upward edge shadow.",
+      "html": "<div class=\"ds-sheet-demo\"><div class=\"ds-sheet-stage\"></div><div class=\"ds-sheet\"><h2>Selected work</h2><p>Client sites, practice builds and the first version of this portfolio.</p></div></div>",
+      "css": ".ds-sheet-demo { font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-sheet-stage { height: 96px; background: linear-gradient(180deg, #d7e0e7 0%, #d4dde4 55%, #ccd7de 100%); } .ds-sheet { position: relative; z-index: 1; padding: 40px 32px; background: var(--bg, #ffffff); box-shadow: 0 -24px 48px -24px rgb(17 24 39 / 0.18); } .ds-sheet h2 { margin: 0; font-size: clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem); line-height: 1.1; font-weight: 620; letter-spacing: -0.03em; color: var(--ink, #111827); } .ds-sheet p { margin: 12px 0 0; color: var(--ink-3, #5f6673); }"
+    },
+    {
+      "name": "Display Title",
+      "kind": "custom",
+      "refersTo": "display-title",
+      "description": "Centred uppercase section title that opens Experience and Tools; the hero name's echo at section scale.",
+      "html": "<h2 class=\"ds-display-title\">Tools <span>&amp; expertise</span></h2>",
+      "css": ".ds-display-title { margin: 0; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); font-size: clamp(2.75rem, 1.4rem + 5vw, 5.5rem); line-height: 0.92; font-weight: 700; letter-spacing: -0.04em; text-transform: uppercase; text-align: center; text-wrap: balance; color: var(--ink, #111827); } .ds-display-title span { white-space: nowrap; }"
+    },
+    {
+      "name": "Experience Card",
+      "kind": "card",
+      "refersTo": "experience-card",
+      "description": "White testimonial-style card on the ember ground, white in both themes: badge, mono date, quote-size description, hairline, title and organisation.",
+      "html": "<div class=\"ds-ember\"><div class=\"ds-ember-grain\"></div><article class=\"ds-xp-card\"><div class=\"ds-xp-top\"><span class=\"ds-xp-badge\">JC</span><span class=\"ds-xp-when\">2023 – Now</span></div><p class=\"ds-xp-detail\">Design and build responsive websites for clients with HTML, CSS, JavaScript, React and WordPress.</p><div class=\"ds-xp-foot\"><h3 class=\"ds-xp-title\">Frontend Developer</h3><p class=\"ds-xp-org\">Self-employed</p></div></article></div>",
+      "css": ".ds-ember { position: relative; isolation: isolate; overflow: hidden; color: #ffffff; background: radial-gradient(70% 60% at 80% 105%, rgb(178 54 20 / 0.9), transparent 70%), radial-gradient(55% 55% at 6% -5%, rgb(132 43 16 / 0.8), transparent 70%), linear-gradient(165deg, #2a0a05 0%, #160604 55%, #0d0403 100%); color-scheme: dark; padding: 32px; } .ds-ember-grain { position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0.25; mix-blend-mode: overlay; background-image: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>\"); } .ds-xp-card { display: flex; flex-direction: column; gap: 28px; max-width: 460px; padding: 24px; border-radius: 12px; background: #ffffff; color: #111827; box-shadow: 0 30px 60px -32px rgb(0 0 0 / 0.6); font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-xp-card p, .ds-xp-card h3 { margin: 0; } .ds-xp-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; } .ds-xp-badge { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 10px; background: #f1f3f6; color: #111827; font-size: 1.1875rem; font-weight: 700; letter-spacing: -0.02em; } .ds-xp-when { padding-top: 4px; color: #5f6673; font-family: var(--font-mono, 'Geist Mono', ui-monospace, monospace); font-size: 0.8125rem; font-variant-numeric: tabular-nums; } .ds-xp-detail { font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem); line-height: 1.45; font-weight: 500; letter-spacing: -0.015em; text-wrap: pretty; } .ds-xp-foot { padding-top: 18px; border-top: 1px solid #e5e7eb; } .ds-xp-title { font-size: 1.0625rem; font-weight: 600; letter-spacing: -0.01em; } .ds-xp-org { margin-top: 2px !important; font-size: 0.9375rem; color: #5f6673; }"
+    },
+    {
+      "name": "Tool Card",
+      "kind": "card",
+      "refersTo": "tool-card",
+      "description": "Numbered tool tile on Muted Grey: mono index, 44px single-colour brand mark, uppercase name and area. Hover darkens, lifts 2px and scales the mark.",
+      "html": "<ul class=\"ds-tool-grid\"><li class=\"ds-tool-card\"><div class=\"ds-tool-top\"><span>/</span><span>04</span></div><svg class=\"ds-tool-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z\"/></svg><div class=\"ds-tool-foot\"><span class=\"ds-tool-name\">Next.js</span><span class=\"ds-tool-area\">Frontend</span></div></li></ul>",
+      "css": ".ds-tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; list-style: none; margin: 0; padding: 0; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-tool-card { display: flex; flex-direction: column; justify-content: space-between; min-height: 220px; padding: 14px 16px 16px; border-radius: 12px; background: var(--bg-muted, #f1f3f6); color: var(--ink, #111827); transition: background-color 220ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 220ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-tool-card:hover { background: var(--line, #e5e7eb); transform: translateY(-2px); } .ds-tool-top { display: flex; justify-content: space-between; color: var(--ink-3, #5f6673); font-family: var(--font-mono, 'Geist Mono', ui-monospace, monospace); font-size: 0.75rem; font-variant-numeric: tabular-nums; } .ds-tool-icon { align-self: center; width: 44px; height: 44px; color: var(--ink, #111827); transition: transform 320ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-tool-card:hover .ds-tool-icon { transform: scale(1.08); } .ds-tool-foot { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; } .ds-tool-name { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; } .ds-tool-area { font-size: 0.8125rem; color: var(--ink-3, #5f6673); text-align: right; }"
+    },
+    {
+      "name": "Ember Contact",
+      "kind": "custom",
+      "refersTo": "ember-ground",
+      "description": "Contact on the ember ground: white headline, lede at 72%, translucent email field, white-wash copy button, inverted white primary button and white links.",
+      "html": "<section class=\"ds-ember\"><div class=\"ds-ember-grain\"></div><h2 class=\"ds-ember-h2\">Have a project or a role in mind?</h2><p class=\"ds-ember-lede\">Email is the quickest way to reach me.</p><div class=\"ds-ember-row\"><div class=\"ds-ember-field\"><a href=\"#\">hello@example.com</a><button class=\"ds-ember-copy\" type=\"button\">Copy</button></div><a class=\"ds-ember-btn\" href=\"#\">Email me</a></div><a class=\"ds-ember-link\" href=\"#\">LinkedIn</a></section>",
+      "css": ".ds-ember { position: relative; isolation: isolate; overflow: hidden; color: #ffffff; background: radial-gradient(70% 60% at 80% 105%, rgb(178 54 20 / 0.9), transparent 70%), radial-gradient(55% 55% at 6% -5%, rgb(132 43 16 / 0.8), transparent 70%), linear-gradient(165deg, #2a0a05 0%, #160604 55%, #0d0403 100%); color-scheme: dark; padding: 40px 32px; font-family: var(--font-sans, Geist, ui-sans-serif, system-ui, sans-serif); } .ds-ember-grain { position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0.25; mix-blend-mode: overlay; background-image: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>\"); } .ds-ember-h2 { margin: 0; font-size: clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem); line-height: 1.1; font-weight: 620; letter-spacing: -0.03em; } .ds-ember-lede { margin: 16px 0 0; max-width: 52ch; font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem); line-height: 1.55; color: rgb(255 255 255 / 0.72); } .ds-ember-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 36px 0 32px; } .ds-ember-field { display: flex; align-items: center; gap: 4px; height: 52px; padding: 0 6px 0 16px; border: 1px solid rgb(255 255 255 / 0.22); border-radius: 12px; background: rgb(255 255 255 / 0.06); } .ds-ember-field a { color: #ffffff; font-size: 1.0625rem; font-weight: 500; letter-spacing: -0.01em; text-decoration: none; } .ds-ember-field a:hover { color: rgb(255 255 255 / 0.8); } .ds-ember-copy { height: 38px; margin-left: 8px; padding: 0 12px; border: 0; border-radius: 8px; background: rgb(255 255 255 / 0.1); color: #ffffff; font: inherit; font-size: 0.875rem; font-weight: 550; cursor: pointer; transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-ember-copy:hover { background: rgb(255 255 255 / 0.18); } .ds-ember-btn { display: inline-flex; align-items: center; height: 52px; padding: 0 22px; border-radius: 12px; background: #ffffff; color: #111827; font-size: 0.9375rem; font-weight: 550; text-decoration: none; box-shadow: 0 1px 2px rgb(0 0 0 / 0.2); transition: background-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-ember-btn:hover { background: #f1f3f6; } .ds-ember-btn:active { transform: translateY(1px); } .ds-ember-link { color: #ffffff; font-size: 0.9375rem; font-weight: 550; text-decoration: underline transparent; text-underline-offset: 4px; transition: text-decoration-color 180ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-ember-link:hover { text-decoration-color: currentColor; } .ds-ember a:focus-visible, .ds-ember button:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; border-radius: 6px; } .ds-ember ::selection { background: rgb(255 255 255 / 0.25); color: #ffffff; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Product-Grade Standard",
+    "overview": "This is the developer portfolio everyone recognises, built the way a good product team builds a marketing page. White ground, near-black ink, a single blue that does every action job, hairline grey borders and 12px corners. Nothing in the system is novel on purpose; the craft is in the precision of what is familiar: optical letter-spacing that tightens as type grows, a three-step ink hierarchy, 1px dividers carrying all the structure, and quiet state transitions on one shared easing curve.\n\nThe page opens on one authored stage. A full-viewport portrait stands on its own light studio ground, sampled from the photo's backdrop so the picture and the page are one surface; the name is set across the bottom in giant uppercase, and a dark glass card carries the greeting, the two actions and the availability line. The stage is pinned; everything after it is a white sheet that slides up over it with a soft upward shadow, and the nav floats transparent over the photo until the sheet reaches it.\n\nDensity on the sheet is calm and readable. A single 1120px column with a fluid gutter holds every section; sections breathe on a fluid 64 to 112px rhythm and are separated by a hairline, not by colour blocks. Work comes first on the sheet, as screenshots seated in thin browser frames, because the screenshots are the evidence.\n\nThe one colour block is the ember ground: a deep rust-to-black glow, built from the hero name's rust and grained like the hero photo, that carries Experience and Contact as the sheet's two dark moments. Experience sets white testimonial-style cards on it; Contact turns its controls white. Experience and Tools open with a centred uppercase display title that echoes the name at section scale.\n\nA dark theme mirrors the light one token for token on the sheet. It follows the operating system by default and can be pinned with a toggle; the accent lightens for text and the photos dim slightly so nothing glares on the dark ground. The hero stage stays light, and the ember ground and its white cards stay as they are, in both themes.",
+    "keyCharacteristics": [
+      "White ground, ink #111827 text, one blue for actions and links.",
+      "A pinned, full-viewport photo stage on a light ground matched to the photo, with the name as the display type; the rest of the page slides over it as a sheet.",
+      "Structure from 1px hairlines; surfaces on the light ground are flat at rest.",
+      "A fixed ember ground (rust glows over near-black, with grain) for Experience and Contact, where actions turn white and cards stay white.",
+      "Two uppercase display steps: the hero name, and the centred display titles that open Experience and Tools.",
+      "Geist for everything readable; Geist Mono only for data (dates, stack tags, URLs in frame bars, tool-card index numerals).",
+      "Corners in a tight family: 6, 8, 9, 10 and 12px, 16px for the hero glass card, plus full circles for dots.",
+      "One easing curve (expo-out) for all motion; 180ms for state changes, one authored hero entrance (photo settles, name rises, card follows).",
+      "Full light and dark parity on the sheet, driven by the same token names; the hero stage is a fixed light island and the ember ground a fixed dark one."
+    ],
+    "rules": [
+      {
+        "name": "The One Blue Rule",
+        "body": "Blue means \"you can act here\": the primary button, text links, the focus ring, the caret, the confirmed copy state. There is no decorative blue; on the hero card, emphasis is white weight, not blue, and the only blue on the stage is the Hire me button. The name carries the stage's colour in Rust Name instead. On the ember ground there is no blue at all: the primary button inverts to a white fill with ink text (Muted Grey on hover), text links and the focus ring turn white, and the copied state is a stronger white wash, because blue on rust-black would read as a second accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink Ladder Rule",
+        "body": "Text hierarchy on the sheet is three inks (ink, ink-2, ink-3), never opacity or a fourth grey. The two dark surfaces carry their own two-step ladder: white and white at 70% on the hero glass card, white and white at 72% on the ember ground. The white experience cards on ember use the light ladder's ink and ink-3.",
+        "section": "colors"
+      },
+      {
+        "name": "The Token Parity Rule",
+        "body": "Every colour on the sheet exists in light and dark under the same name; components reference tokens, never raw hex, so the theme flips with no per-component code. The hero stage and the ember ground are the deliberate exceptions: the stage's ground, ink and glass are scoped light values (the nav pins to them while over the stage), and the ember ground and the white cards on it are scoped fixed values, so neither world inverts.",
+        "section": "colors"
+      },
+      {
+        "name": "The Matched Ground Rule",
+        "body": "Every gradient ground is matched to something already on the page. The hero ground is sampled from the photo's own backdrop and the portrait's sides are masked into it; the ember ground is built from the name's rust. A new hero photo means re-sampling the hero ground, and a new name colour means re-deriving the ember glows, never picking a brand colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tightening Rule",
+        "body": "Tracking tightens as size grows: -0.04em display and display title, -0.03em headline and hello, -0.015em quote, -0.012em title, -0.01em for emphasized body lines, 0 for mono; only small uppercase labels open up, to +0.02em.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Name Rule",
+        "body": "The name is the only type at display size: Geist 650, uppercase, 20.2vw, edge to edge, once, on the hero stage. The display title is its echo, not its rival: Geist 700, uppercase, centred, capped at 88px, and only to open a showcase section (Experience, Tools). Every other section title stays at headline in sentence case, and nothing else is uppercase above label size.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono-Is-Data Rule",
+        "body": "Geist Mono is reserved for dates, stack tags, the URL in a browser frame and the index numerals on tool cards. Never for headings, labels or prose.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-At-Rest Rule",
+        "body": "Cards on the light ground sit flat; lift is a hover response, never a resting state. Project cards lift with shadow-md plus a 2px rise; tool cards lift by tone, their fill darkening to Hairline as they rise 2px, with no shadow. Two things float at rest because they sit on a picture, not on a hairline: the hero glass card over the photo, and the white experience cards over the ember glow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Two Glass Rule",
+        "body": "Glass is reserved for the two things that float: the sticky nav (nav-bg under `saturate(180%) blur(14px)`; transparent with no blur while over the stage, opaque when the mobile menu opens) and the hero card (Ink Glass under `blur(20px) saturate(140%)`). There is no third glass surface; the translucent email field on ember is a tint with no blur, not glass.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do reference colour tokens by name so light and dark stay in parity; add any new colour to both theme blocks.",
+      "Do keep the hero stage light in both themes, its ground re-sampled from the photo backdrop and the name in Rust Name.",
+      "Do keep Action Blue as a fill for the primary button only, and Link Blue for text links.",
+      "Do separate light sections and rows with 1px hairlines (line) and keep cards on the light ground flat until hover; ember sections drop the hairline on both edges.",
+      "Do keep the ember ground identical in both themes, with white text, a white focus ring and the inverted white primary button, and keep experience cards white on it.",
+      "Do draw brand marks as single-colour SVG in currentColor.",
+      "Do use Geist Mono only for dates, stack tags, frame-bar URLs and tool-card numerals.",
+      "Do show product screenshots inside the browser frame, cropped from the top at 16:10.",
+      "Do run every transition on the expo-out curve; 180ms for state changes.",
+      "Do keep text in the three-step ink ladder, with measure capped at 52 to 64ch."
+    ],
+    "donts": [
+      "Don't introduce a second accent hue, decorative gradients or gradient text. There are exactly two gradient grounds, each matched to the page: the hero's photo-sampled ground and the ember ground built from the name's rust. Green is a status signal only.",
+      "Don't put blue on the ember ground; actions there are white.",
+      "Don't add a third glass surface; glass belongs to the nav and the hero card.",
+      "Don't give any heading the hero name's display size; uppercase headings are the name and the display titles that open Experience and Tools, nothing else.",
+      "Don't show skills as meters, bars or percentages; skills are tool cards and tags.",
+      "Don't rest a shadow on a card on the light ground; the Ember card shadow belongs to the white cards on ember.",
+      "Don't add looping animation beyond the availability ping and the ember drift, run either loop off screen, or replay any entrance on scroll; every reveal plays once.",
+      "Don't rest shadow-md on anything; it is the project card's hover state.",
+      "Don't set display type in Geist Mono or a second sans."
+    ]
+  }
+}
