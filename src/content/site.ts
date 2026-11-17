@@ -12,7 +12,7 @@ export const site = {
     width: 930,
     height: 1080,
   },
-  url: "https://my-personal-portfolio-html-css-js.vercel.app",
+  url: "https://joe-cole-portfolio.vercel.app",
   email: "colefrankenstein@gmail.com",
   cv: "/cv/Joe-Cole-CV.pdf",
   availability: "Open to developer roles and freelance projects",
